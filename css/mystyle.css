@@ -1,0 +1,72 @@
+<style>
+        * {
+            font-family: "맑은 고딕", Arial, Helvetica, sans-serif;
+            line-height: 100%;
+
+        }
+        body{
+            margin-top: 100px;
+            margin: 0 auto;
+            max-width: 980px;
+        }
+        header, footer{
+            height: 100px;
+            text-align: center;
+
+        }
+        header h1{
+            display: inline;
+        }
+        footer{
+            background-color: khaki;
+        }
+        nav{
+            height: 100px;
+        }
+        section{
+            display: flex;
+        }
+        .content{
+            flex: 4;
+        }
+        aside{
+            flex: 5;
+        }
+        ul{list-style-type: none;}
+        a{text-decoration: none;}
+        nav ul li{
+            display: inline;
+            padding: 15px 20px;
+            letter-spacing: 5px;
+        }
+        nav ul{
+            padding: 50px 50px;
+            text-align: center;
+        }
+        .bare > img{
+            padding-top: 0px;
+            display: block;
+            margin: 0 auto;
+            width: 50%;
+        }
+        .action table{
+            margin: 0 auto;
+            width: 90%;
+            font-size : 1.2em;
+            border: 0px;
+            text-align: center
+        }
+        .action table th{
+            background-color: khaki;
+        }
+        h4{
+            text-align: center
+        }
+        iframe{
+            margin: 0 auto;
+            width: 80%;
+        }
+        .link{
+            font-size: medium;
+        }
+</style>
