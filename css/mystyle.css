@@ -20,8 +20,11 @@
         footer{
             background-color: khaki;
         }
+        header{
+            height: 70px;
+        }
         nav{
-            height: 100px;
+            height: 50px;
         }
         section{
             display: flex;
@@ -47,7 +50,7 @@
             padding-top: 0px;
             display: block;
             margin: 0 auto;
-            width: 50%;
+            width: 70%;
         }
         .action table{
             margin: 0 auto;
@@ -62,11 +65,14 @@
         h4{
             text-align: center
         }
-        iframe{
+        .media{
             margin: 0 auto;
-            width: 80%;
+            width: 100%;
         }
         .link{
             font-size: medium;
+        }
+        .login{
+            width: 120%;
         }
 </style>
